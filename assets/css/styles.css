@@ -6,3 +6,7 @@
 .sidebar img {
   max-height: 700px;
 }
+
+.flip-h {
+  transform: scale(-1, 1);
+}

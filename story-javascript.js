@@ -1,5 +1,5 @@
 var leftSidebarContent       = `
-  <div class="text-center w-75">
+  <div class="text-center pt-5 mt-5">
     <img class="mw-100 mb-4" src="https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatars.png" alt="chatterpast avatars">
     <h1>Chatterpast</h1>
     <h4>

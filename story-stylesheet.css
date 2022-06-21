@@ -1,6 +1,6 @@
 :root {
     --bg-color: #DDEAF6;
-    --user-color: purple;
+    --user-color: #9B51E0;
     --sidebar-bg-color: #FFF;
     --navbar-bg-color: #FFF;
     --passage-bg-color: #FFF;
@@ -54,4 +54,29 @@
 }
 .chat-passage-wrapper[data-speaker='Bel'] .chat-passage::before {
   color: #3A492B;
+}
+
+#left-sidebar-container {
+  width: 22vw;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.chat-passage {
+  margin-left: 60px;
+}
+.chat-passage-wrapper::before {
+  width: 50px;
+}
+.chat-passage-wrapper::before, .chat-passage-wrapper[data-speaker="you"]::after {
+  height: 50px;
+  background-size: 50px 50px;
+  border-radius: 30px;
+}
+.chat-passage-wrapper[data-speaker="you"]::after {
+  margin-left: -50px;
+  width: 50px;
+}
+.chat-passage[data-speaker="you"] {
+  margin-right: 60px;
 }

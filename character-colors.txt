@@ -1,0 +1,27 @@
+Enica
+light: #B4C9E2
+dark: #5889BC
+
+Maelli
+light: #C55415
+dark: #542712
+
+Catia
+light: #A6733F
+dark: #3E2B18
+
+Marcus
+light: #627B88
+dark: #43555E
+
+Mandu
+light: #E5BB27
+dark: #594914
+
+Vin
+light: #4899C5
+dark: #1C4151
+
+Bel
+light: #889B78
+dark: #3A492B

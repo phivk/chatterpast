@@ -2,3 +2,7 @@
   background-color: #9B51E0;
 }
 .hover-purple:hover, .hover-purple:focus { color: #9B51E0; }
+
+.sidebar img {
+  max-height: 700px;
+}

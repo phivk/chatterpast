@@ -8,49 +8,49 @@
 }
 
 .chat-passage-wrapper[data-speaker='Enica']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-enica.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-enica.png');
 }
 .chat-passage-wrapper[data-speaker='Enica'] .chat-passage::before {
   color: #5889BC;
 }
 
 .chat-passage-wrapper[data-speaker='Maelli']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-maelli.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-maelli.png');
 }
 .chat-passage-wrapper[data-speaker='Maelli'] .chat-passage::before {
   color: #542712;
 }
 
 .chat-passage-wrapper[data-speaker='Catia']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-catia.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-catia.png');
 }
 .chat-passage-wrapper[data-speaker='Catia'] .chat-passage::before {
   color: #3E2B18;
 }
 
 .chat-passage-wrapper[data-speaker='Marcus']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-marcus.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-marcus.png');
 }
 .chat-passage-wrapper[data-speaker='Marcus'] .chat-passage::before {
   color: #43555E;
 }
 
 .chat-passage-wrapper[data-speaker='Mandu']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-mandu.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-mandu.png');
 }
 .chat-passage-wrapper[data-speaker='Mandu'] .chat-passage::before {
   color: #594914;
 }
 
 .chat-passage-wrapper[data-speaker='Vin']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-vin.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-vin.png');
 }
 .chat-passage-wrapper[data-speaker='Vin'] .chat-passage::before {
   color: #1C4151;
 }
 
 .chat-passage-wrapper[data-speaker='Bel']:before {
-  background-image: url('https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/avatar-bel.png');
+  background-image: url('https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatar-bel.png');
 }
 .chat-passage-wrapper[data-speaker='Bel'] .chat-passage::before {
   color: #3A492B;

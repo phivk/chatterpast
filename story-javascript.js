@@ -1,6 +1,6 @@
 var leftSidebarContent       = `
   <div class="text-center w-75">
-    <img class="mw-100 mb-4" src="https://raw.githubusercontent.com/phivk/tolerant-futures/chatterpast/assets/img/headshots.png" alt="chatterpast characters">
+    <img class="mw-100 mb-4" src="https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatars.png" alt="chatterpast avatars">
     <h1>Chatterpast</h1>
     <h4>
       Tolerant Futures<br>

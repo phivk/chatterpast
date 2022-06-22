@@ -1,6 +1,22 @@
 .bg-purple {
   background-color: #9B51E0;
 }
+.purple {
+  color: #9B51E0;
+}
+.bg-light-blue {
+  background-color: #DDEAF6;
+}
+.light-blue {
+  color: #DDEAF6;
+}
+.bg-dark-blue {
+  background-color: #3582CA;
+}
+.dark-blue {
+  color: #3582CA;
+}
+
 .hover-purple:hover, .hover-purple:focus { color: #9B51E0; }
 
 .sidebar img {

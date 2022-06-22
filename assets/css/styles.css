@@ -16,6 +16,12 @@
 .dark-blue {
   color: #3582CA;
 }
+.bg-muted-blue {
+  background-color: #B4C9E2;
+}
+.muted-blue {
+  color: #B4C9E2;
+}
 
 .hover-purple:hover, .hover-purple:focus { color: #9B51E0; }
 
@@ -25,4 +31,12 @@
 
 .flip-h {
   transform: scale(-1, 1);
+}
+
+.circle-big {
+  border-radius: 100%;
+  width: 110%;
+  padding-top: 110%;
+  left: -10%;
+  top: 0%;
 }

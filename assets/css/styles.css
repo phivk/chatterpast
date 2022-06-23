@@ -19,7 +19,10 @@
 .sidebar img {
   max-height: 700px;
 }
-
+.w-120 {
+  width: 120%;
+  max-width: none;
+}
 .flip-h {
   transform: scale(-1, 1);
 }

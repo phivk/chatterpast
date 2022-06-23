@@ -1,13 +1,7 @@
-.bg-purple {
-  background-color: #9B51E0;
-}
-.purple {
-  color: #9B51E0;
-}
-.bg-light-blue {
+.bg-washed-blue {
   background-color: #DDEAF6;
 }
-.light-blue {
+.washed-blue {
   color: #DDEAF6;
 }
 .bg-dark-blue {
@@ -16,15 +10,12 @@
 .dark-blue {
   color: #3582CA;
 }
-.bg-muted-blue {
+.bg-light-blue {
   background-color: #B4C9E2;
 }
-.muted-blue {
+.light-blue {
   color: #B4C9E2;
 }
-
-.hover-purple:hover, .hover-purple:focus { color: #9B51E0; }
-
 .sidebar img {
   max-height: 700px;
 }

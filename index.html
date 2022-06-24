@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/assets/css/tachyons.min.css"/>
   <link rel="stylesheet" href="/assets/css/styles.css"/>
 </head>
-<body class="avenir bg-washed-blue">
+<body class="avenir bg-washed-blue overflow-x-hidden">
   <nav class="db w-100 flex items-center flex-wrap nowrap-l pa3 pa4-l ph5-l mw8 center">
     <a class="db link dim w-100 w-25-l tc tl-l mb3 mb0-l flex items-center justify-center justify-start-l dark-blue" href="/" title="Home">
       <img class="dib w2 h2 br-100 mr2" src="/assets/img/icon.png" alt="Chatterpast">
@@ -20,7 +20,7 @@
       <a class="link dim dark-blue f4 fw5 dib" href="/about.html" title="About the Tolerant Futures project">About</a>
     </div>
   </nav>
-  <div class="pa3 ph4-m ph5-l mv4-m mv5-l flex justify-around items-center mw8 center">
+  <header class="pa3 ph4-m ph5-l mv4-m mv5-l flex justify-around items-center mw8 center">
     <main class="tc tl-ns">
       <h1 class="f2 f1-ns mb3 dark-blue">Chatterpast</h1>
       <h2 class="f4 f3-ns fw5 dark-blue">
@@ -28,14 +28,28 @@
       </h2>
       <p class="f4 measure center ">Use our magical messaging app to explore life in Iron Age and Roman Britannia with Enica and her friends. Chat directly with them and discover their unique stories from across Scotland, England and Wales. Question them about their lives and experiences and reflect on how these relate to the present.</p>
       <a class="f3 fw6 grow no-underline br-pill ph4 pv3 mv3 dib white bg-dark-blue" href="/chat">Chat with the past</a>
-    </main>  
+    </main>
     <div class="sidebar dn db-ns">
       <img class="w-120" src="/assets/img/character-enica-circles.png" alt="Enica with her paddle">
     </div>
-  </div>
-  <div class="relative ph3 ph5-l pb3 pt5 pt6-l tc overflow-hidden">
+  </header>
+  <section class="pa3 ph4-m ph5-l mv4-m mv5-l tc">
+    <div class="mw9 center bg-dark-blue white br4 dib tl">
+      <div class="flex justify-between items-start items-center-l flex-column flex-row-l">
+        <div class="pa3 ph4-ns">
+          <h3 class="f2">Make it your own</h3>
+          <p class="f5 measure">Are you an educator addressing Iron Age and Roman Heritage? You can use this story in your teaching! We’ve developed this project as a reusable set of open educational resources. This includes the characters, their backstories, the story script, illustrations and the source code of the chat story. Check out the Teachers’ Guide for more context and ways to adapt the story to your needs.</p>
+        </div>
+        <div class="pa3 ph4-ns tl tc-l">
+          <a class="f5 fw6 grow no-underline br-pill ph4 pv3 mv2 dib bg-white dark-blue" href="/assets/files/teachers-guide.pdf">Download the Teachers’ Guide</a> <br>
+          <a class="f5 fw6 grow no-underline br-pill ph4 pv3 mv2 dib white ba b--white bw1" href="/about.html">Read more about the project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="relative ph3 ph5-l pb3 pt5 pt6-l tc overflow-hidden">
     <div class="absolute bg-light-blue circle-big"></div>
     <img class="mw-100 flip-h" src="/assets/img/characters.png" alt="Chatterpast characters">
-  </div>
+  </footer>
 </body>
 </html>

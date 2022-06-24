@@ -40,3 +40,16 @@
   left: -10%;
   top: 0%;
 }
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.maxh4 {
+  max-height: 8rem;
+}

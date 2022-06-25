@@ -89,37 +89,37 @@
   border-radius: 100%;
   width: 112px;
   height: 112px;
-  animation: orbit-maelli 20.0s linear infinite;
+  animation: orbit-maelli 30.0s linear infinite;
 }
 .circle-catia {
   border-radius: 100%;
   width: 58px;
   height: 58px;
-  animation: orbit-catia 10.4s linear infinite;
+  animation: orbit-catia 15.5s linear infinite;
 }
 .circle-marcus {
   border-radius: 100%;
   width: 42px;
   height: 42px;
-  animation: orbit-marcus 7.5s linear infinite;
+  animation: orbit-marcus 11.3s linear infinite;
 }
 .circle-mandu {
   border-radius: 100%;
   width: 89px;
   height: 89px;
-  animation: orbit-mandu 15.9s linear infinite;
+  animation: orbit-mandu 23.8s linear infinite;
 }
 .circle-vin {
   border-radius: 100%;
   width: 73px;
   height: 73px;
-  animation: orbit-vin 13.0s linear infinite;
+  animation: orbit-vin 19.6s linear infinite;
 }
 .circle-bel {
   border-radius: 100%;
   width: 97px;
   height: 97px;
-  animation: orbit-bel 17.3s linear infinite;
+  animation: orbit-bel 26.0s linear infinite;
 }
 
 @keyframes orbit-maelli {

@@ -22,6 +22,9 @@
 .light-blue {
   color: #B4C9E2;
 }
+.b--light-blue {
+  border-color: #B4C9E2; 
+}
 .bg-maelli {
   background-color: #C55415;
 }
@@ -76,6 +79,12 @@
   left: 50.7%;
 }
 
+.circle-large {
+  border-radius: 100%;
+  width: 345px;
+  height: 345px;
+  transform: translate(-50%, -50%);
+}
 .circle-maelli {
   border-radius: 100%;
   width: 112px;

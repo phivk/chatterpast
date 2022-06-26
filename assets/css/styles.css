@@ -81,8 +81,9 @@
 
 .circle-large {
   border-radius: 100%;
-  width: 345px;
-  height: 345px;
+  width: 70%;
+  padding-top: 70%;
+  box-sizing: content-box;
   transform: translate(-50%, -50%);
 }
 .circle-maelli {

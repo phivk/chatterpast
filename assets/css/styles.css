@@ -53,13 +53,19 @@
 .flip-h {
   transform: scale(-1, 1);
 }
-
 .circle-big {
   border-radius: 100%;
   width: 110%;
   padding-top: 110%;
   left: -10%;
   top: 0%;
+}
+/*
+  fix z-index on safari
+  https://stackoverflow.com/a/40896165
+*/
+.z-fix {
+  transform:translate3d(0,0,0);
 }
 .full-width {
   width: 100vw;
@@ -69,16 +75,13 @@
   margin-left: -50vw;
   margin-right: -50vw;
 }
-
 .maxh4 {
   max-height: 8rem;
 }
-
 .center-enica {
   top: 39.5%;
   left: 50.7%;
 }
-
 .circle-large {
   border-radius: 100%;
   width: 70%;

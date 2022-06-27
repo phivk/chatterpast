@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-    Chatterpast All
+    Chatterpast
     </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,7 +24,7 @@
         <a id="nav-link-undo" class="content-container" href="javascript:void(0)" style="visibility: hidden;">
             Undo
         </a>
-        <h1 id="ptitle" class="nav-title">Chatterpast All</h1>
+        <h1 id="ptitle" class="nav-title">Chatterpast</h1>
         <div id="psub">
             <span id="psubtitle"></span>
             <span id="pauthor"></span>
@@ -70,13 +70,36 @@
 
     </main>
 
-    <tw-storydata name="Chatterpast All" startnode="1" creator="Twine" creator-version="2.3.16" ifid="5E9FE7E2-9E32-4847-ACAC-CC99ED6E0402" zoom="0.6" format="Trialogue" format-version="0.0.6" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">:root {
+    <tw-storydata name="Chatterpast" startnode="1" creator="Twine" creator-version="2.3.16" ifid="5E9FE7E2-9E32-4847-ACAC-CC99ED6E0402" zoom="0.6" format="Trialogue" format-version="0.0.6" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+@import url("https://raw.githubusercontent.com/phivk/chatterpast/main/assets/css/styles.css");
+:root {
     --bg-color: #DDEAF6;
-    --user-color: #9B51E0;
+    --user-color: #2B68A1;
     --sidebar-bg-color: #FFF;
     --navbar-bg-color: #FFF;
     --passage-bg-color: #FFF;
     --passage-text-color: #000;
+}
+body {
+  font-family: montserrat,avenir next,avenir,sans-serif;
+}
+#ptitle {
+  margin: 0;
+  transform: translateX(-50%);
+  font-weight: 800;
+  color: #2B68A1;
+}
+.dark-blue {
+  color: #2B68A1;
+}
+.fw4{
+  font-weight: 400;
+}
+.fw6{
+  font-weight: 600;
+}
+.fw8{
+  font-weight: 800;
 }
 
 .chat-passage-wrapper[data-speaker='Enica']:before {
@@ -152,17 +175,17 @@
 .chat-passage[data-speaker="you"] {
   margin-right: 60px;
 }</style><script role="script" id="twine-user-script" type="text/twine-javascript">var leftSidebarContent       = `
-  <div class="text-center pt-5 mt-5">
+  <div class="text-center pt-5 mt-5 dark-blue">
     <img class="mw-100 mb-4" src="https://raw.githubusercontent.com/phivk/chatterpast/main/assets/img/avatars.png" alt="chatterpast avatars">
-    <h1>Chatterpast</h1>
-    <h4>
+    <h1 class="fw8">Chatterpast</h1>
+    <h4 class="fw6">
       Tolerant Futures<br>
       through<br>
       Ancient Identities
     </h4>
   </div>`;
 var rightSidebarContent      = `
-  <p class="lead">Explore life in Iron Age and Roman Britannia with Enica and her friends.</p>
+  <p class="lead fw4">Explore life in Iron Age and Roman Britannia with Enica and her friends.</p>
   <p>Old lifeways are being challenged by the arrival of new people, new ideas, and new ways of living. Sharing experiences on Chatterpast has allowed a small group of kids to become friends, despite their differences. </p>
   <p>Discover their unique stories from across Britannia. Question them about their lives and reflect on how these relate to the present.</p>
   <p>The friends are also curious about how things turned out around 2000 years in their future!</p>`;

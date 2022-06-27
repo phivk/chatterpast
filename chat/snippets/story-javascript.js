@@ -17,8 +17,8 @@ var userResponseHintContent  = 'Choose one option to continue the conversation';
 var modalTitleContent        = 'Leave the chat?';
 var modalBodyContent         = '<p>If you leave the chat, your history will be lost and you will have to start from the beginning.</p>';
 var modalFooterContent       = '<button type="button" class="btn rounded-0 btn-link" data-dismiss="modal">Stay</button><a href="/?lang=en" type="button" class="btn rounded-0 btn-danger">Leave</a>';
-var navLinkBackContent       = '<img class="nav-icon nav-icon-back" src="https://fillafulla.sng.sk/img/icon-back.svg">';
-var navLinkMenuContent       = '<img class="nav-icon nav-icon-menu" src="https://fillafulla.sng.sk/img/icon-hamburger.svg">';
+var navLinkBackContent       = '<img class="nav-icon nav-icon-back" src="https://chatterpast.tolerantfutures.com/assets/img/icon-back.svg">';
+var navLinkMenuContent       = '<img class="nav-icon nav-icon-menu" src="https://chatterpast.tolerantfutures.com/assets/img/icon-hamburger.svg">';
 
 inject_nav_back(navLinkBackContent);
 inject_nav_menu(navLinkMenuContent);

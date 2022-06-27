@@ -1,8 +1,31 @@
+/** =================== MONTSERRAT =================== **/
+/** https://github.com/JulietaUla/Montserrat/releases/tag/v7.222 **/
+/** Montserrat Regular **/
 @font-face {
-    font-family: 'Avenir';
-    font-style: normal;
+    font-family: "Montserrat";
     font-weight: 400;
-    src: local('Avenir'), url('/assets/fonts/avenir_roman_12.woff') format('woff');
+    font-style: normal;
+    src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+         url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+/** Montserrat SemiBold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+         url("../fonts/Montserrat-SemiBold.woff") format("woff");
+}
+/** Montserrat ExtraBold **/
+@font-face {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-style: normal;
+    src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
+         url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+}
+.montserrat {
+  font-family: montserrat,avenir next,avenir,sans-serif;;
 }
 .bg-washed-blue {
   background-color: #DDEAF6;
@@ -132,17 +155,14 @@
   to   {  transform: translate(-50%, -50%) rotate(340deg) translateX(250px); }
 }
 @keyframes orbit-catia {
-
   from {  transform: translate(-50%, -50%) rotate(220deg) translateX(220px); }
   to   {  transform: translate(-50%, -50%) rotate(580deg) translateX(220px); }
 }
 @keyframes orbit-marcus {
-
   from {  transform: translate(-50%, -50%) rotate(60deg) translateX(290px); }
   to   {  transform: translate(-50%, -50%) rotate(420deg) translateX(290px); }
 }
 @keyframes orbit-mandu {
-
   from {  transform: translate(-50%, -50%) rotate(130deg) translateX(250px); }
   to   {  transform: translate(-50%, -50%) rotate(490deg) translateX(250px); }
 }
@@ -151,7 +171,6 @@
   to   {  transform: translate(-50%, -50%) rotate(650deg) translateX(180px); }
 }
 @keyframes orbit-bel {
-
   from {  transform: translate(-50%, -50%) rotate(30deg) translateX(180px); }
   to   {  transform: translate(-50%, -50%) rotate(390deg) translateX(180px); }
 }

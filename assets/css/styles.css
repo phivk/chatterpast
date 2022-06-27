@@ -53,12 +53,13 @@
 .flip-h {
   transform: scale(-1, 1);
 }
-.circle-big {
+.circle-characters-bg {
   border-radius: 100%;
-  width: 110%;
-  padding-top: 110%;
-  left: -10%;
-  top: 0%;
+  width: 90%;
+  padding-top: 90%;
+  left: 50%;
+  top: 16%;
+  transform: translate(-50%);
 }
 /*
   fix z-index on safari

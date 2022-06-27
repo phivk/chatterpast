@@ -1,29 +1,4 @@
-/** =================== MONTSERRAT =================== **/
-/** https://github.com/JulietaUla/Montserrat/releases/tag/v7.222 **/
-/** Montserrat Regular **/
-@font-face {
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-style: normal;
-    src: url("../fonts/Montserrat-Regular.woff2") format("woff2"),
-         url("../fonts/Montserrat-Regular.woff") format("woff");
-}
-/** Montserrat SemiBold **/
-@font-face {
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-style: normal;
-    src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
-         url("../fonts/Montserrat-SemiBold.woff") format("woff");
-}
-/** Montserrat ExtraBold **/
-@font-face {
-    font-family: "Montserrat";
-    font-weight: 800;
-    font-style: normal;
-    src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"),
-         url("../fonts/Montserrat-ExtraBold.woff") format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 .montserrat {
   font-family: montserrat,avenir next,avenir,sans-serif;;
 }

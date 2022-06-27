@@ -22,6 +22,27 @@
 .light-blue {
   color: #B4C9E2;
 }
+.b--light-blue {
+  border-color: #B4C9E2; 
+}
+.bg-maelli {
+  background-color: #C55415;
+}
+.bg-catia {
+  background-color: #A6733F;
+}
+.bg-marcus {
+  background-color: #627B88;
+}
+.bg-mandu {
+  background-color: #E5BB27;
+}
+.bg-vin {
+  background-color: #4899C5;
+}
+.bg-bel {
+  background-color: #889B78;
+}
 .sidebar img {
   max-height: 700px;
 }
@@ -32,7 +53,6 @@
 .flip-h {
   transform: scale(-1, 1);
 }
-
 .circle-big {
   border-radius: 100%;
   width: 110%;
@@ -40,7 +60,13 @@
   left: -10%;
   top: 0%;
 }
-
+/*
+  fix z-index on safari
+  https://stackoverflow.com/a/40896165
+*/
+.z-fix {
+  transform:translate3d(0,0,0);
+}
 .full-width {
   width: 100vw;
   position: relative;
@@ -49,7 +75,82 @@
   margin-left: -50vw;
   margin-right: -50vw;
 }
-
 .maxh4 {
   max-height: 8rem;
+}
+.center-enica {
+  top: 39.5%;
+  left: 50.7%;
+}
+.circle-large {
+  border-radius: 100%;
+  width: 70%;
+  padding-top: 70%;
+  box-sizing: content-box;
+  transform: translate(-50%, -50%);
+}
+.circle-maelli {
+  border-radius: 100%;
+  width: 112px;
+  height: 112px;
+  animation: orbit-maelli 30.0s linear infinite;
+}
+.circle-catia {
+  border-radius: 100%;
+  width: 58px;
+  height: 58px;
+  animation: orbit-catia 15.5s linear infinite;
+}
+.circle-marcus {
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  animation: orbit-marcus 11.3s linear infinite;
+}
+.circle-mandu {
+  border-radius: 100%;
+  width: 89px;
+  height: 89px;
+  animation: orbit-mandu 23.8s linear infinite;
+}
+.circle-vin {
+  border-radius: 100%;
+  width: 73px;
+  height: 73px;
+  animation: orbit-vin 19.6s linear infinite;
+}
+.circle-bel {
+  border-radius: 100%;
+  width: 97px;
+  height: 97px;
+  animation: orbit-bel 26.0s linear infinite;
+}
+
+@keyframes orbit-maelli {
+  from {  transform: translate(-50%, -50%) rotate(-20deg) translateX(250px); }
+  to   {  transform: translate(-50%, -50%) rotate(340deg) translateX(250px); }
+}
+@keyframes orbit-catia {
+
+  from {  transform: translate(-50%, -50%) rotate(220deg) translateX(220px); }
+  to   {  transform: translate(-50%, -50%) rotate(580deg) translateX(220px); }
+}
+@keyframes orbit-marcus {
+
+  from {  transform: translate(-50%, -50%) rotate(60deg) translateX(290px); }
+  to   {  transform: translate(-50%, -50%) rotate(420deg) translateX(290px); }
+}
+@keyframes orbit-mandu {
+
+  from {  transform: translate(-50%, -50%) rotate(130deg) translateX(250px); }
+  to   {  transform: translate(-50%, -50%) rotate(490deg) translateX(250px); }
+}
+@keyframes orbit-vin {
+  from {  transform: translate(-50%, -50%) rotate(290deg) translateX(180px); }
+  to   {  transform: translate(-50%, -50%) rotate(650deg) translateX(180px); }
+}
+@keyframes orbit-bel {
+
+  from {  transform: translate(-50%, -50%) rotate(30deg) translateX(180px); }
+  to   {  transform: translate(-50%, -50%) rotate(390deg) translateX(180px); }
 }
